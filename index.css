@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+li {
+    font-size: 0.9rem;
+}
+
+i {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.box-a,
+.box-b,
+.box-c,
+.box-d,
+.box-e {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+.box-a {
+    background-color: #5d5959;
+    height: 200px;
+}
+
+.box-b {
+    background-color: #eaeae7;
+    height: 30px;
+    position: relative;
+    bottom: 60px;
+}
+
+.box-c {
+    padding: 7px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 150px;
+    position: relative;
+    bottom: 220px;
+}
+
+img {
+    width: 100%;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px dotted #bbbb2f;
+}
+
+.box-d {
+    background-color: #daba1b;
+    padding: 7px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 200px;
+    position: relative;
+    bottom: 250px;
+    color: #766;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.box-e {
+    background-color: #bbbbbba8;
+    height: 40px;
+    font-size: 17px;
+    position: relative;
+    bottom: 224px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.parent {
+    height: auto;
+    display: flex;
+    position: relative;
+    bottom: 215px;
+}
+
+.parent .child-1,
+.child-2 {}
+
+.parent .child-1 {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.parent .child-2 {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.title h3 {
+    color: grey;
+    font-size: 1.5em;
+}
+
+
+/*--------------------Heading-1-------------------*/
+
+.heading-1 {
+    height: 150px;
+}
+
+.heading-1 .title {
+    margin: 0 20px;
+    position: absolute;
+    display: flex;
+}
+
+.heading-1 .title i {
+    margin-right: 10px;
+}
+
+.heading-1 .text {
+    position: relative;
+    top: 30px;
+    padding: 8px;
+    margin: 0 7px 0 15px;
+}
+
+.heading-1 .text p {
+    text-align: justify;
+    padding: 10px;
+}
+
+
+/*--------------------Heading-2-------------------*/
+
+.heading-2 {
+    height: 450px;
+}
+
+.heading-2 .title {
+    margin: 0 20px;
+    position: absolute;
+    display: flex;
+}
+
+.heading-2 .title i {
+    margin-right: 10px;
+}
+
+.heading-2 #s1 {
+    width: 100%;
+    position: relative;
+    top: 50px;
+    left: 150px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.heading-2 #s2 {
+    width: 100%;
+    position: relative;
+    top: 245px;
+    left: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.heading-2 .main {
+    position: absolute;
+    top: 230px;
+    width: 45%;
+}
+
+.heading-2 ul {
+    display: flex;
+}
+
+.heading-2 li {
+    width: 40%;
+    list-style: none;
+}
+
+
+/*--------------------Heading-3-------------------*/
+
+.heading-3 {
+    height: 380px;
+}
+
+.heading-3 .title {
+    margin: 0 20px;
+    position: absolute;
+    display: flex;
+}
+
+.heading-3 .title i {
+    margin-right: 10px;
+}
+
+#u1,
+#u2,
+#u3 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    height: 50px;
+}
+
+.A {
+    position: relative;
+    bottom: -50px;
+    margin: 0 0 0 24px;
+}
+
+.B,
+.B-1,
+.B-2 {
+    display: flex;
+    align-items: baseline;
+}
+
+.D,
+.D-1,
+.D-2 {
+    margin: 0px 0px 0px 40px;
+    line-height: 23px;
+    padding: 5px;
+}
+
+
+/*=============Child-2============*/
+
+.title-1 {
+    position: relative;
+    top: 25px;
+}
+
+.title-1 ul {
+    margin: auto;
+    position: relative;
+    right: 10px;
+}
+
+.title-1 li,
+.title-2 li {
+    margin: 0 0 0 34px;
+    padding: 3px;
+    position: relative;
+    top: 32px;
+    font-size: 0.9rem;
+}
+
+.title-2 .text ul {
+    margin: auto;
+}
+
+.heading-1 .text-1 {
+    position: relative;
+    top: 30px;
+    padding: 8px;
+}
+
+.heading-1 .text-1 p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.heading-1 .text-2 {
+    position: relative;
+    top: 30px;
+    padding: 8px;
+}
+
+.heading-1 .text-2 p {
+    text-align: justify;
+    padding: 10px;
+}
+
+.child-2 .heading-2-2 {
+    position: relative;
+    top: 282px;
+}
+
+.heading-2-2 .title {
+    display: flex;
+    margin: 0 20px;
+}
+
+.heading-2-2 .title i {
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.heading-2-2 .title-2-1 {
+    position: relative;
+    bottom: 28px;
+}
+
+.heading-2-2 .title-2-2 {
+    position: relative;
+    bottom: 34px;
+}
+
+.child-2 .heading-2-3 {
+    position: relative;
+    top: 245px;
+}
+
+.heading-2-3 .title {
+    display: flex;
+    margin: 0 20px;
+}
+
+.heading-2-3 .title i {
+    margin: auto 0;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.title-2-1 .text {
+    display: flex;
+}
+
+.title-2-1 li,
+.title-2-2 li {
+    margin-left: 35px;
+    padding: 2px;
+    font-size: 0.9rem;
+}
+
+.title-2-2 .text {
+    display: flex;
+}
+
+.L-1,
+.L-2,
+.L-3 {
+    display: flex;
+    align-items: baseline;
+    margin-left: 20px;
+    padding: 4px;
+}
+
+.L-1 h4,
+.L-2 h4,
+.L-3 h4 {
+    margin: 0;
+    width: 80px;
+    font-size: 1.1rem;
+}
+
+.L-1 .exp,
+.L-2 .exp,
+.L-3 .exp {
+    line-height: 23px;
+}
+
+
+/*--------- footer-----------*/
+
+.box-f {
+    height: 60px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    bottom: 218px;
+}
+
+.icon {
+    background-color: #5d5959;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
